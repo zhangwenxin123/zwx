@@ -13,7 +13,7 @@ def computer_distance(rating_index,rating_me):
     #y[5,5,0,5]
     sum = 0
     for i in range(0,4):
-        sum=sum+(rating_index[i]-rating_me[i])*(rating_index[i]_rating_me[i])
+        sum=sum+(rating_index[i]-rating_me[i])*(rating_index[i]-rating_me[i])
     return sqrt(sum)
 def get_distance_with_me(data,index):
     #获取第index人与我的距离
