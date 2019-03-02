@@ -20,8 +20,8 @@ def get_distance_with_me(data,index):
     ##1.获取这个人的数据（电影的评分）[1,2,3,4]
     rating_index = []
     rating_me = []
-    rting_index = get_rating(data,index)
-    print(rting_index)
+    rating_index = get_rating(data,index)
+    print(rating_index)
     ##2.获取我这个人的数据（电影的评分）[1,2,3,4]
     rating_me = get_rating(data,4）
     ##3.利用欧式距离公式计算
